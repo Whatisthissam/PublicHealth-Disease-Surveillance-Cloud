@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   Stethoscope, Eye, EyeOff, Lock, User, Shield, Activity,
-  Globe, Wifi, WifiOff, AlertCircle, Mail, Phone, MapPin, Briefcase, ArrowRight
+  Globe, Wifi, WifiOff, AlertCircle, Mail, Phone, MapPin, Briefcase, ArrowRight, ArrowLeft
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { authAPI } from '../services/api';
@@ -556,10 +556,18 @@ export default function LoginPage() {
             )}
           </AnimatePresence>
 
-          {/* Secure lock badge */}
-          <div className="login-safe-badge">
-            <Shield size={14} />
-            <span>Your data is safe and encrypted</span>
+          {/* Back to Home & Secure lock badge */}
+          <div className="flex flex-col items-center gap-2 mt-4 z-10 relative">
+            <button
+              onClick={() => navigate('/')}
+              className="text-xs font-semibold text-slate-500 hover:text-[#1e7f84] transition-colors flex items-center gap-1.5"
+            >
+              <ArrowLeft size={14} /> Back to Landing Page
+            </button>
+            <div className="login-safe-badge mt-1">
+              <Shield size={14} />
+              <span>Your data is safe and encrypted</span>
+            </div>
           </div>
         </motion.div>
       </div>
