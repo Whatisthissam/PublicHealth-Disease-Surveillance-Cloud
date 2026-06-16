@@ -1,18 +1,52 @@
 # Public Health Disease Surveillance Cloud
 
-A cloud-based Public Health Disease Surveillance Platform deployed on AWS Cloud. The project demonstrates practical implementation of AWS cloud services, networking, Linux administration, containerization, monitoring, backup strategies, and cloud deployment best practices.
+Cloud-based Disease Surveillance Platform deployed on AWS using React, Node.js, Express, MySQL, Docker, and AWS Services.
 
 ---
 
-# Project Overview
+## 📖 Project Overview
 
-The Public Health Disease Surveillance Cloud platform provides a centralized system for monitoring and managing disease-related information. The application is deployed on AWS infrastructure using Docker containers and follows cloud computing best practices for scalability, security, monitoring, and disaster recovery.
+The Public Health Disease Surveillance Cloud project is a cloud-native healthcare monitoring platform developed to demonstrate practical implementation of AWS Cloud Computing concepts. The platform provides a centralized environment for disease surveillance while showcasing cloud infrastructure design, networking, Linux administration, monitoring, backup strategies, containerization, and secure application deployment.
+
+The application is hosted on Amazon EC2 and deployed using Docker Compose with separate containers for the frontend, backend, and database services.
 
 ---
 
-# Technology Stack
+## 🎯 Objectives
 
-## Frontend
+* Design a secure AWS cloud infrastructure.
+* Deploy a production-ready web application.
+* Demonstrate AWS networking concepts.
+* Implement Linux administration tasks.
+* Deploy containerized services using Docker.
+* Monitor infrastructure using CloudWatch.
+* Utilize Amazon S3 cloud storage.
+* Implement backup and disaster recovery using AMI.
+* Apply security and cost optimization practices.
+
+---
+
+## 🏗️ System Architecture
+
+<p align="center">
+  <img src="IMPLEMENTATION_SCREENSHOTS/AWS-Architecture.png" width="1000">
+</p>
+
+The Public Health Disease Surveillance Cloud platform is deployed on AWS infrastructure using a containerized architecture. The solution consists of an Amazon EC2 instance hosted inside a Virtual Private Cloud (VPC) and deployed using Docker Compose.
+
+The application is divided into three core services:
+
+* Frontend (React + Vite)
+* Backend (Node.js + Express)
+* MySQL Database
+
+AWS services such as IAM, S3, CloudWatch, and AMI are integrated to provide secure access management, cloud storage, monitoring, and backup capabilities. Networking components including VPC, Subnet, Internet Gateway, Route Table, and Security Groups ensure secure communication and controlled access to the application.
+
+---
+
+## 🛠️ Technology Stack
+
+### Frontend
 
 * React.js
 * Vite
@@ -20,249 +54,142 @@ The Public Health Disease Surveillance Cloud platform provides a centralized sys
 * CSS3
 * JavaScript
 
-## Backend
+### Backend
 
 * Node.js
 * Express.js
 
-## Database
+### Database
 
 * MySQL
 
-## Cloud & Infrastructure
+### Cloud & Infrastructure
 
 * AWS EC2
-* AWS VPC
 * AWS IAM
+* AWS VPC
 * AWS S3
 * AWS CloudWatch
 * AWS AMI
 
-## DevOps & Deployment
+### Deployment
 
 * Docker
 * Docker Compose
-* Linux (Ubuntu Server)
-* Git & GitHub
+* Ubuntu Linux
 
 ---
 
-# AWS Services Used
+## ☁️ AWS Services Used
 
-| Service          | Purpose                |
-| ---------------- | ---------------------- |
-| IAM              | Access Management      |
-| VPC              | Network Isolation      |
-| Subnet           | Network Segmentation   |
-| Internet Gateway | Internet Connectivity  |
-| Route Table      | Traffic Routing        |
-| Security Group   | Firewall Configuration |
-| EC2              | Application Hosting    |
-| S3               | Cloud Storage          |
-| CloudWatch       | Monitoring & Alerting  |
-| AMI              | Backup & Recovery      |
-
----
-
-# Application Architecture
-
-<img src="IMPLEMENTATION_SCREENSHOTS/Architecture-Diagram.png" width="900">
+| AWS Service      | Purpose               |
+| ---------------- | --------------------- |
+| IAM              | Access Management     |
+| VPC              | Network Isolation     |
+| Subnet           | Network Segmentation  |
+| Internet Gateway | Internet Connectivity |
+| Route Table      | Traffic Routing       |
+| Security Group   | Firewall Protection   |
+| EC2              | Application Hosting   |
+| S3               | Cloud Storage         |
+| CloudWatch       | Monitoring & Alerts   |
+| AMI              | Backup & Recovery     |
 
 ---
 
-# Project Features
+## 📸 Implementation Screenshots
 
-* Disease Surveillance Dashboard
-* Public Health Data Management
-* Cloud-Based Deployment
-* Containerized Architecture
-* Secure AWS Networking
-* Role-Based Access Control
-* Cloud Monitoring
-* Backup & Recovery Strategy
-* Cost Optimization Practices
+### IAM User Creation
 
----
+<img src="IMPLEMENTATION_SCREENSHOTS/IAM_User-Creation.png" width="1000">
 
-# AWS Infrastructure Setup
+### VPC Creation
 
-The following AWS components were configured:
+<img src="IMPLEMENTATION_SCREENSHOTS/VPC-Created.png" width="1000">
 
-* IAM User
-* VPC
-* Public Subnet
-* Internet Gateway
-* Route Table
-* Security Group
-* EC2 Instance
-* S3 Bucket
-* CloudWatch Alarm
-* AMI Backup
+### Public & Private Subnets
 
----
+<img src="IMPLEMENTATION_SCREENSHOTS/Created-2_subnets-Private&PUblic.png" width="1000">
 
-# Deployment Process
+### Internet Gateway Configuration
 
-### Clone Repository
+<img src="IMPLEMENTATION_SCREENSHOTS/Internet-Gateway-for-VPC.png" width="1000">
 
-```bash
-git clone https://github.com/Whatisthissam/PublicHealth-Disease-Surveillance-Cloud.git
-cd PublicHealth-Disease-Surveillance-Cloud
-```
+### Route Table Configuration
 
-### Start Application
+<img src="IMPLEMENTATION_SCREENSHOTS/route-table.png" width="1000">
 
-```bash
-docker compose up -d --build
-```
+### Security Group Configuration
 
-### Verify Containers
+<img src="IMPLEMENTATION_SCREENSHOTS/Created-Security-Groups.png" width="1000">
 
-```bash
-docker ps
-```
+### EC2 Instance Creation
 
-### Access Application
+<img src="IMPLEMENTATION_SCREENSHOTS/EC2-Instance_Created7Running.png" width="1000">
 
-```text
-http://<EC2-Public-IP>
-```
+### SSH Connectivity
 
----
+<img src="IMPLEMENTATION_SCREENSHOTS/SSH_AND_EC2-Connectivity.png" width="1000">
 
-# Implementation Screenshots
+### Linux User Creation
 
-## IAM User Creation
+<img src="IMPLEMENTATION_SCREENSHOTS/created-user-in-linux.png" width="1000">
 
-<img src="IMPLEMENTATION_SCREENSHOTS/IAM_User-Creation.png" width="900">
+### Linux Groups Management
 
----
+<img src="IMPLEMENTATION_SCREENSHOTS/AddedUser-to-Groups.png" width="1000">
 
-## VPC Creation
+### Linux File Permissions & Ownership
 
-<img src="IMPLEMENTATION_SCREENSHOTS/VPC-Created.png" width="900">
+<img src="IMPLEMENTATION_SCREENSHOTS/Linux-FIles-Permission-Ownership.png" width="1000">
 
----
+### Repository Cloning
 
-## Public & Private Subnets
+<img src="IMPLEMENTATION_SCREENSHOTS/ClonedRepo-for-Deploying.png" width="1000">
 
-<img src="IMPLEMENTATION_SCREENSHOTS/Created-2_subnets-Private&PUblic.png" width="900">
+### Docker Installation
 
----
+<img src="IMPLEMENTATION_SCREENSHOTS/Installed-Docker.png" width="1000">
 
-## Internet Gateway Configuration
+### Docker Compose Installation
 
-<img src="IMPLEMENTATION_SCREENSHOTS/Internet-Gateway-for-VPC.png" width="900">
+<img src="IMPLEMENTATION_SCREENSHOTS/Docker-COmpose-Installed.png" width="1000">
 
----
+### Multi-Container Deployment
 
-## Route Table Configuration
+<img src="IMPLEMENTATION_SCREENSHOTS/docker-composed-all-containers.png" width="1000">
 
-<img src="IMPLEMENTATION_SCREENSHOTS/route-table.png" width="900">
+### Cron Job Configuration
+
+<img src="IMPLEMENTATION_SCREENSHOTS/Created-CronJOB.png" width="1000">
+
+### Linux Monitoring
+
+<img src="IMPLEMENTATION_SCREENSHOTS/top-command-monitoirng.png" width="1000">
+
+### Application Deployment
+
+<img src="IMPLEMENTATION_SCREENSHOTS/website-landingpage.png" width="1000">
+
+### Amazon S3 Bucket
+
+<img src="IMPLEMENTATION_SCREENSHOTS/S3Bucket-created.png" width="1000">
+
+### CloudWatch Monitoring
+
+<img src="IMPLEMENTATION_SCREENSHOTS/Created-Alarm-using-CloudWatch.png" width="1000">
+
+### AMI Backup Creation
+
+<img src="IMPLEMENTATION_SCREENSHOTS/Created-EC2Instance-Image(AMI)-forBackup.png" width="1000">
 
 ---
 
-## Security Group Configuration
-
-<img src="IMPLEMENTATION_SCREENSHOTS/Created-Security-Groups.png" width="900">
-
----
-
-## EC2 Instance Creation
-
-<img src="IMPLEMENTATION_SCREENSHOTS/EC2-Instance_Created7Running.png" width="900">
-
----
-
-## SSH Connectivity
-
-<img src="IMPLEMENTATION_SCREENSHOTS/SSH_AND_EC2-Connectivity.png" width="900">
-
----
-
-## Linux User Creation
-
-<img src="IMPLEMENTATION_SCREENSHOTS/created-user-in-linux.png" width="900">
-
----
-
-## Linux Groups Management
-
-<img src="IMPLEMENTATION_SCREENSHOTS/AddedUser-to-Groups.png" width="900">
-
----
-
-## Linux File Permissions
-
-<img src="IMPLEMENTATION_SCREENSHOTS/Linux-FIles-Permission-Ownership.png" width="900">
-
----
-
-## Repository Cloning
-
-<img src="IMPLEMENTATION_SCREENSHOTS/ClonedRepo-for-Deploying.png" width="900">
-
----
-
-## Docker Installation
-
-<img src="IMPLEMENTATION_SCREENSHOTS/Installed-Docker.png" width="900">
-
----
-
-## Docker Compose Installation
-
-<img src="IMPLEMENTATION_SCREENSHOTS/Docker-COmpose-Installed.png" width="900">
-
----
-
-## Multi-Container Deployment
-
-<img src="IMPLEMENTATION_SCREENSHOTS/docker-composed-all-containers.png" width="900">
-
----
-
-## Cron Job Configuration
-
-<img src="IMPLEMENTATION_SCREENSHOTS/Created-CronJOB.png" width="900">
-
----
-
-## Linux Monitoring
-
-<img src="IMPLEMENTATION_SCREENSHOTS/top-command-monitoirng.png" width="900">
-
----
-
-## Website Deployment
-
-<img src="IMPLEMENTATION_SCREENSHOTS/website-landingpage.png" width="900">
-
----
-
-## Amazon S3 Bucket
-
-<img src="IMPLEMENTATION_SCREENSHOTS/S3Bucket-created.png" width="900">
-
----
-
-## CloudWatch Alarm
-
-<img src="IMPLEMENTATION_SCREENSHOTS/Created-Alarm-using-CloudWatch.png" width="900">
-
----
-
-## AMI Backup Creation
-
-<img src="IMPLEMENTATION_SCREENSHOTS/Created-EC2Instance-Image(AMI)-forBackup.png" width="900">
-
----
-
-# Challenges Faced
+## ⚡ Challenges Faced
 
 ### Docker Build Context Issue
 
-The frontend Docker image initially failed to build because Docker could not access files outside the build context. The Dockerfile was updated to correctly reference the Nginx configuration file.
+The frontend image initially failed to build because Docker could not access files outside the build context. The Dockerfile was updated to correctly reference the Nginx configuration file.
 
 ### Docker Compose Compatibility Issue
 
@@ -270,20 +197,37 @@ The older Docker Compose version was incompatible with the installed Docker Engi
 
 ### CORS Configuration Issue
 
-Frontend API requests were blocked due to an incorrect CORS configuration. The allowed origin was updated to match the deployed EC2 public endpoint, restoring communication between frontend and backend services.
+Frontend API requests were blocked due to an incorrect CORS configuration. The allowed origin was updated to match the deployed EC2 endpoint, restoring communication between frontend and backend services.
 
 ---
 
-# Cost Optimization
+## 💰 Cost Optimization
 
-* EC2 instances can be stopped when not in use.
-* S3 provides cost-efficient cloud storage.
-* Docker containers optimize resource utilization.
-* CloudWatch helps monitor resource consumption.
-* AMI backups reduce disaster recovery costs.
+* Stop EC2 instances when not in use.
+* Use S3 for scalable and cost-efficient storage.
+* Utilize Docker containers for efficient resource usage.
+* Monitor resources using CloudWatch.
+* Maintain AMI backups for disaster recovery.
+* Use a single EC2 instance during development and testing to reduce infrastructure costs.
 
 ---
 
-# Conclusion
+## 📚 Learning Outcomes
 
-The Public Health Disease Surveillance Cloud project successfully demonstrates the practical implementation of AWS Cloud Computing concepts including networking, security, monitoring, storage, backup, Linux administration, Docker containerization, and cloud deployment. The project provides hands-on experience with real-world cloud infrastructure and deployment practices.
+Through this project, practical experience was gained in:
+
+* AWS Cloud Infrastructure Design
+* Cloud Networking Concepts
+* Linux Administration
+* Docker & Containerization
+* Cloud Monitoring & Logging
+* Cloud Storage Services
+* Backup & Disaster Recovery
+* Real-World Deployment Troubleshooting
+* Secure Cloud Application Hosting
+
+---
+
+## Conclusion
+
+The Public Health Disease Surveillance Cloud project successfully demonstrates the practical implementation of AWS Cloud Computing concepts including networking, security, monitoring, storage, backup, Linux administration, Docker containerization, and cloud deployment. The project provided hands-on experience with real-world AWS infrastructure and deployment practices while showcasing a complete cloud-native application architecture.
