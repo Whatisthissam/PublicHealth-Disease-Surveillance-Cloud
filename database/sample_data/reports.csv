@@ -1,0 +1,16 @@
+report_id,title,report_type,period_start,period_end,region,status
+RPT-2024-001,Mumbai January Daily Disease Report,daily,2024-01-05,2024-01-05,Mumbai,approved
+RPT-2024-002,Maharashtra Weekly Epidemiology Summary W3,weekly,2024-01-15,2024-01-21,All,approved
+RPT-2024-003,January 2024 Monthly Health Report,monthly,2024-01-01,2024-01-31,All,approved
+RPT-2024-004,Dengue Outbreak Alert - Mumbai,outbreak,2024-02-01,2024-02-28,Mumbai,approved
+RPT-2024-005,Pune February Weekly Report W7,weekly,2024-02-12,2024-02-18,Pune,under_review
+RPT-2024-006,February 2024 Monthly Summary,monthly,2024-02-01,2024-02-29,All,approved
+RPT-2024-007,Nashik TB Cluster Investigation,outbreak,2024-03-01,2024-03-15,Nashik,approved
+RPT-2024-008,March 2024 Monthly Health Summary,monthly,2024-03-01,2024-03-31,All,approved
+RPT-2024-009,Q1 2024 Quarterly Epidemiology Review,custom,2024-01-01,2024-03-31,All,approved
+RPT-2024-010,Nagpur Malaria Weekly Alert,weekly,2024-04-01,2024-04-07,Nagpur,under_review
+RPT-2024-019,August 2024 Monthly Report,monthly,2024-08-01,2024-08-31,All,pending
+RPT-2024-023,October 2024 Monthly Report,monthly,2024-10-01,2024-10-31,All,pending
+RPT-2024-024,Kolhapur Dengue Outbreak Report,outbreak,2024-10-01,2024-10-20,Kolhapur,pending
+RPT-2024-027,TB DOTS Program Progress Report,monthly,2024-10-01,2024-10-31,All,pending
+RPT-2024-030,Annual Disease Burden Preliminary Report,custom,2024-01-01,2024-10-31,All,pending

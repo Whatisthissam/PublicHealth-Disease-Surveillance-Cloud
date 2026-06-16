@@ -1,0 +1,13 @@
+task_id,title,assigned_to,priority,status,due_date
+TASK-2024-001,Investigate Dengue Cluster - Dharavi Mumbai,Anita Joshi,urgent,approved,2024-01-10
+TASK-2024-002,Review TB DOTS Compliance - Nashik,Rajesh Wagh,high,approved,2024-01-15
+TASK-2024-003,COVID-19 Contact Tracing - Mumbai,Vikram Patil,high,under_review,2024-01-12
+TASK-2024-004,Malaria Rapid Diagnostic - Nagpur,Pooja Rane,urgent,approved,2024-01-20
+TASK-2024-005,Chikungunya Vector Control - Thane,Amit Chavan,medium,pending,2024-02-01
+TASK-2024-006,Dengue DHF Management Protocol Review,Dr. Priya Sharma,high,approved,2024-02-10
+TASK-2024-007,Monthly Report Preparation - February,Sneha Kulkarni,medium,approved,2024-03-05
+TASK-2024-008,Malaria Cerebral Case Follow-up,Anita Joshi,urgent,under_review,2024-02-01
+TASK-2024-009,TB Drug Sensitivity Testing - Nagpur,Dr. Suresh Bhattacharya,urgent,approved,2024-01-28
+TASK-2024-010,Influenza Vaccination Drive - Kolhapur,Meera Kore,medium,pending,2024-03-15
+TASK-2024-024,Influenza Season Sentinel Surveillance,Sneha Kulkarni,medium,rejected,2024-10-15
+TASK-2024-025,Year-End Disease Burden Assessment,Ritu Agarwal,high,pending,2024-12-31

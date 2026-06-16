@@ -1,0 +1,15 @@
+id,name,state,country,population,area_sq_km,is_current,priority,status,health_centers,hospitals
+1,Mumbai,Maharashtra,India,20667656,603.40,1,1,active,45,89
+2,Pune,Maharashtra,India,7276000,15642.00,1,2,active,32,52
+3,Nashik,Maharashtra,India,2552000,15582.00,1,3,active,18,24
+4,Nagpur,Maharashtra,India,2936857,227.00,1,4,active,21,31
+5,Thane,Maharashtra,India,1886941,147.00,1,5,active,14,19
+6,Aurangabad,Maharashtra,India,1175116,139.00,1,6,active,12,16
+7,Kolhapur,Maharashtra,India,549236,67.00,1,7,active,8,11
+8,Solapur,Maharashtra,India,951118,114.84,1,8,active,7,10
+9,Satara,Maharashtra,India,320285,791.72,1,9,active,5,7
+10,Jalgaon,Maharashtra,India,460228,179.00,1,10,active,4,6
+11,Delhi,Delhi,India,32941000,1484.00,0,1,planned,0,0
+12,Bangalore,Karnataka,India,13608000,741.00,0,2,planned,0,0
+13,Hyderabad,Telangana,India,10268653,650.00,0,3,planned,0,0
+14,Chennai,Tamil Nadu,India,11503293,426.00,0,4,planned,0,0

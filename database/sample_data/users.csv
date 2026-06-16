@@ -1,0 +1,21 @@
+id,username,email,full_name,role,phone,region,department,is_active
+1,admin,admin@publichealthcloud.in,Dr. Arjun Mehta,admin,9876543210,Mumbai,Administration,1
+2,manager_mum,manager.mumbai@publichealthcloud.in,Dr. Priya Sharma,manager,9876543211,Mumbai,Epidemiology,1
+3,manager_pune,manager.pune@publichealthcloud.in,Dr. Rahul Desai,manager,9876543212,Pune,Epidemiology,1
+4,staff_mum_1,staff1.mumbai@publichealthcloud.in,Anita Joshi,staff,9876543213,Mumbai,Field Operations,1
+5,staff_mum_2,staff2.mumbai@publichealthcloud.in,Vikram Patil,staff,9876543214,Mumbai,Field Operations,1
+6,staff_pune_1,staff1.pune@publichealthcloud.in,Sneha Kulkarni,staff,9876543215,Pune,Data Entry,1
+7,staff_nashik,staff.nashik@publichealthcloud.in,Rajesh Wagh,staff,9876543216,Nashik,Field Operations,1
+8,staff_nagpur,staff.nagpur@publichealthcloud.in,Pooja Rane,staff,9876543217,Nagpur,Data Entry,1
+9,staff_thane,staff.thane@publichealthcloud.in,Amit Chavan,staff,9876543218,Thane,Field Operations,1
+10,staff_aurang,staff.aurang@publichealthcloud.in,Kavita Salunke,staff,9876543219,Aurangabad,Field Operations,1
+11,manager_nag,manager.nagpur@publichealthcloud.in,Dr. Suresh Bhattacharya,manager,9876543220,Nagpur,Epidemiology,1
+12,staff_kolha,staff.kolha@publichealthcloud.in,Meera Kore,staff,9876543221,Kolhapur,Data Entry,1
+13,staff_solapur,staff.solapur@publichealthcloud.in,Nikhil More,staff,9876543222,Solapur,Field Operations,1
+14,staff_satara,staff.satara@publichealthcloud.in,Sunita Pawar,staff,9876543223,Satara,Data Entry,1
+15,staff_jalgaon,staff.jalgaon@publichealthcloud.in,Deepak Borse,staff,9876543224,Jalgaon,Field Operations,1
+16,dr_epi_1,epi1@publichealthcloud.in,Dr. Lalita Iyer,manager,9876543225,Mumbai,Epidemiology,1
+17,dr_epi_2,epi2@publichealthcloud.in,Dr. Santosh Kamble,staff,9876543226,Pune,Epidemiology,1
+18,analyst_1,analyst1@publichealthcloud.in,Ritu Agarwal,staff,9876543227,Mumbai,Data Analytics,1
+19,analyst_2,analyst2@publichealthcloud.in,Kiran Nair,staff,9876543228,Pune,Data Analytics,1
+20,admin_it,itadmin@publichealthcloud.in,Gaurav Shetty,admin,9876543229,Mumbai,IT Infrastructure,1

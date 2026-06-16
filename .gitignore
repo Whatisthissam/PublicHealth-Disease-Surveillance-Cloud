@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+**/node_modules/
+.npm
+
+# Environment / Sensitive Configs
+.env
+**/.env
+.env.local
+**/.env.local
+.env.production
+**/.env.production
+.env.development
+**/.env.development
+.env.test
+**/.env.test
+.env.*
+
+# Allow tracking of env templates
+!.env.example
+!**/.env.example
+
+# Build outputs
+dist/
+**/dist/
+build/
+**/build/
+
+# Logs
+logs/
+**/logs/
+*.log
+**/*.log
+npm-debug.log*
+**/npm-debug.log*
+
+# OS
+.DS_Store
+**/.DS_Store
+Thumbs.db
+**/Thumbs.db
+
+# IDE
+.vscode/
+**/.vscode/
+.idea/
+**/.idea/
+*.swp
+**/*.swp
+
+# Docker volumes
+mysql_data/
+**/mysql_data/
+
+# Python (if any)
+__pycache__/
+**/__pycache__/
+*.pyc
+**/*.pyc

@@ -1,0 +1,21 @@
+alert_id,title,alert_type,severity,region,status
+ALERT-2024-001,High CPU Usage - API Server,cpu,high,,resolved
+ALERT-2024-002,Dengue Outbreak Threshold Exceeded - Mumbai,outbreak,critical,Mumbai,active
+ALERT-2024-003,Memory Usage Warning - Database Server,memory,medium,,resolved
+ALERT-2024-004,Malaria Cerebral Case Alert,outbreak,critical,Mumbai,active
+ALERT-2024-005,Storage Usage Warning,storage,medium,,acknowledged
+ALERT-2024-006,COVID-19 Death Reported - Nashik,outbreak,critical,Nashik,active
+ALERT-2024-007,Database Connection Pool Exhausted,database,high,,resolved
+ALERT-2024-008,TB Cluster Detected - Nashik Industrial Zone,outbreak,high,Nashik,active
+ALERT-2024-009,Report Approval Backlog,service,medium,,acknowledged
+ALERT-2024-010,Service Degradation - Report Generator,service,medium,,resolved
+ALERT-2024-011,Dengue ICU Admission - Critical,outbreak,critical,Pune,active
+ALERT-2024-012,Network Latency Spike,network,medium,,resolved
+ALERT-2024-013,Drug-Resistant TB Suspected - Nagpur,outbreak,high,Nagpur,active
+ALERT-2024-014,High Memory Usage - Application Server,memory,high,,acknowledged
+ALERT-2024-015,Chikungunya Cluster - Thane,outbreak,high,Thane,active
+ALERT-2024-016,Dengue DHF - Kolhapur Pediatric,outbreak,critical,Kolhapur,active
+ALERT-2024-017,Scheduled Backup Failed,database,high,,resolved
+ALERT-2024-018,Cerebral Malaria Alert - Thane,outbreak,critical,Thane,active
+ALERT-2024-019,TB Meningitis ICU Admission - Jalgaon,outbreak,critical,Jalgaon,active
+ALERT-2024-020,COVID-19 4th Death - Satara,outbreak,critical,Satara,active
